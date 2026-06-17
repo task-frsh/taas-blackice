@@ -1,0 +1,24 @@
+# 환경/비밀
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 로그/임시
+*.log
+.playwright-mcp/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# 대용량 원본(필요시) — 가공본만 커밋
+data/raw/*.zip
